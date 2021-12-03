@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Text with animation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head">
+        <div class="first">
+            <h3>"Allah is <span class="auto-text"></span></h3>
+        </div>
+        <svg viewBox="0 0 1000 340">
+            <text id="atext" x="50%"  y="50%" text-anchor="middle" fill="none">Happy NY - '2022'</text>
+            <use xlink:href="#atext" class="copy copy1"></use>
+            <use xlink:href="#atext" class="copy copy2"></use>
+            <use xlink:href="#atext" class="copy copy3"></use>
+            <use xlink:href="#atext" class="copy copy4"></use>
+            <use xlink:href="#atext" class="copy copy5"></use>
+        </svg>
+        <img src="https://giffiles.alphacoders.com/150/15079.gif" alt="nice pic">
+        <div class="info">
+        <p>Roksana Parvin <br>Asst Teacher <br><span>CPSCM</span></p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+</html>
